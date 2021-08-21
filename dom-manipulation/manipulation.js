@@ -21,10 +21,10 @@ mentor.setAttribute('href','http://youtube.com')
 // jojo.classList.add('jojo')
 
 //classList.remove() --> menghilangkan kelas yang ada
-// jojo.classList.remove('jojo')
+jojo.classList.remove('jojo')
 
 //classList.toggle() --> jika elemen kelas tidak ada, method ini akan menambahkan. jika elemen sudah punya, maka akan menghilangkan kelas tertentu.
-jojo.classList.toggle('jojo')
+// jojo.classList.toggle('jojo')
 
 //classList.contains() --> mengetahui kelas tertentu.
 const cek=jojo.classList.contains('jojo1')
