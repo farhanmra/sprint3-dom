@@ -91,7 +91,10 @@ const link=document.querySelector('#a a')
 
 
 button9.addEventListener('click',function(){
-
+    const elemenBaru=document.createElement('p')
+    const isiElemen=document.createTextNode('Instagram Kami')
+    elemenBaru.appendChild(isiElemen)
+    penampung.replaceChild(elemenBaru,link)
 })
 
 //==================== button 10 ==================
@@ -105,7 +108,7 @@ button10.addEventListener('click',function(){
     tbLink=document.createTextNode('Link Github Farhan Klik Disini aja')
     linkBaru.appendChild(tbLink)
     linkParent.appendChild(linkBaru)
-    linkBaru.setAttribute('href','http://youtube.com')
+    linkBaru.setAttribute('href','https://github.com/farhanmra/sprint3-dom/tree/main/PostTestDOM')
 })
 
 
