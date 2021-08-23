@@ -23,9 +23,8 @@ const p3=document.getElementsByTagName('p')
 
 button3.addEventListener('click',function(){
     for(a=0;a<p3.length;a++){
-        loop=document.getElementsByTagName('p')[a]
-        loop.style.color='brown'
-        loop.style.fontFamily='times new roman'
+        p3[a].style.color='brown'
+        p3[a].style.fontFamily='times new roman'
     }
 })
 
@@ -87,14 +86,8 @@ button8.addEventListener('click',function(){
 const button9=document.getElementById
 ('buttonSembilan')
 const link=document.querySelector('#a a')
-
-
-
 button9.addEventListener('click',function(){
-    const elemenBaru=document.createElement('p')
-    const isiElemen=document.createTextNode('Instagram Kami')
-    elemenBaru.appendChild(isiElemen)
-    penampung.replaceChild(elemenBaru,link)
+    link.removeAttribute('href')
 })
 
 //==================== button 10 ==================
